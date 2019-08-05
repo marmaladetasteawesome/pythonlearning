@@ -1,0 +1,11 @@
+#Task 1.1 安装python并且知道如何进入以及退出python交互式环境
+#首先mac以及自带了python2.7的版本，只是如何调出还是花了我5分钟的时间去思考，毕竟小白没有在mac上编程的经验，平时也是鼠标拖来拖去的新手党，总算5分钟后，找到#了terminal的入口，terminal->输入python->进入>>>->然后输入exit()退出
+#问题：当我在mac开始运行python时，同时我也启动了cpython编译器？--应该是的
+#问题2:升级提到了homebrew，请问如何下载homebrew?--已解决，找到了terminal，网上复制粘贴了一份指令ruby -e "$(curl -fsSL #https://raw.githubusercontent.com/Homebrew/install/master/install)"，书写到这的时候已经安装的1%啦！
+
+#task 1.2 python 初体验
+#难点：如何命名文件以及记住保存文件的路径，方便在terminal打开相关文件进行运行，注意所有的程序文件以.py结尾
+#pirnt任务初尝试
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+print('Hello, world')
